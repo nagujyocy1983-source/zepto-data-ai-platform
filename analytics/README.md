@@ -703,3 +703,36 @@ Completed components include:
 - Pipeline reload verification
 
 The main modeling script completed successfully without runtime errors.
+
+
+---
+
+## Multivariate Visualizations
+
+The following four multivariate visualizations were created to examine interactions between multiple passenger attributes and survival outcomes.
+
+### 1. Survival Rate by Sex and Passenger Class
+
+`multivariate_01_survival_sex_pclass.png`
+
+The chart shows survival differences across both sex and passenger class. Survival rates vary substantially by passenger class, with higher-class passengers generally showing higher survival rates. The combined view also shows a clear difference between male and female survival outcomes within the same passenger class.
+
+### 2. Age Distribution by Sex and Survival Status
+
+`multivariate_02_age_sex_survival.png`
+
+This visualization examines age together with sex and survival status. It shows how the age distributions differ between survivors and non-survivors for male and female passengers. The distribution also highlights the presence of younger passengers among both survival groups.
+
+### 3. Fare Distribution by Passenger Class and Survival
+
+`multivariate_03_fare_pclass_survival.png`
+
+This chart combines fare, passenger class, and survival. Fare distributions differ strongly across passenger classes, and survivors generally appear across a different fare distribution than non-survivors within several classes. This supports the relationship between passenger class, economic status represented by fare, and survival.
+
+### 4. Age vs Fare by Survival Status and Sex
+
+`multivariate_04_age_fare_survival_sex.png`
+
+The scatter plot combines age, fare, survival status, and sex. It shows how survival observations are distributed across different age and fare ranges while also distinguishing passenger sex. Higher-fare observations are concentrated more heavily among first-class passengers, providing an additional view of the interaction between socioeconomic position and survival.
+
+These visualizations provide multivariate evidence that survival was associated with combinations of passenger class, sex, age, and fare rather than a single variable in isolation.
